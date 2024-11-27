@@ -1,0 +1,19 @@
+{
+  "name": "express-app",
+  "version": "1.0.0",
+  "description": "Aplikasi Express modular dengan Express.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": ["express", "nodejs", "api"],
+  "author": "PBJ7_WEBSERVER",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
